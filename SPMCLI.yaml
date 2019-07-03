@@ -1,4 +1,6 @@
-mac:
-  build:
-    -Xcc: -DDEBUG
-    
+xcconfig:
+  name: SG.xcconfig
+  keys:
+    OTHER_SWIFT_FLAGS: -Xswiftc
+    OTHER_CFLAGS: -Xcc
+    OTHER_LDFLAGS: -Xlinker
